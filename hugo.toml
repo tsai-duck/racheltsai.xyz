@@ -2,9 +2,9 @@ baseURL = "https://racheltsai.xyz/"
 languageCode = "en-us"
 title = "huh?"
 
-enableEmoji = true
-
 theme = "PaperMod"
+
+enableEmoji = true
 
 [params]
 
