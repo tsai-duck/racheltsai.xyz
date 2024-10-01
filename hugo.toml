@@ -25,3 +25,6 @@ url = "https://github.com/tsai-duck"
 defaultTheme = "auto"
 # ShowPostNavLinks = true
 # ShowBreadCrumbs = true
+
+[outputs]
+home = [ "HTML", "JSON" ]
