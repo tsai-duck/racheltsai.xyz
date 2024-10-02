@@ -1,0 +1,3 @@
+# Needed to accurately detect the "language" of this repo in Github.
+# https://github.com/github-linguist/linguist/blob/main/docs/overrides.md#using-gitattributes
+*.md linguist-detectable
