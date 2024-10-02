@@ -1,30 +1,30 @@
 baseURL = "https://racheltsai.xyz/"
 languageCode = "en-us"
 title = "huh?"
-
 theme = "PaperMod"
+mainsections = [ "posts", "projects" ]
 
 enableEmoji = true
 
 [params]
+    env = "production"
+    defaultTheme = "auto"
+    # ShowPostNavLinks = true
+    # ShowBreadCrumbs = true
 
-[params.homeInfoParams]
-Title = "Hi! 👋 I'm Rachel."
-Content = "what are we doing today? :)"
+    [params.homeInfoParams]
+    Title = "Hi! 👋 I'm Rachel."
+    Content = "what are we doing today? :)"
 
-[[params.socialIcons]]
-name = "linkedin"
-title = "View LinkedIn Profile"
-url = "https://www.linkedin.com/in/racheltsai/"
+    [[params.socialIcons]]
+    name = "linkedin"
+    title = "View LinkedIn Profile"
+    url = "https://www.linkedin.com/in/racheltsai/"
 
-[[params.socialIcons]]
-name = 'github'
-title = "View Github Profile"
-url = "https://github.com/tsai-duck"
-
-defaultTheme = "auto"
-# ShowPostNavLinks = true
-# ShowBreadCrumbs = true
+    [[params.socialIcons]]
+    name = 'github'
+    title = "View Github Profile"
+    url = "https://github.com/tsai-duck"
 
 [outputs]
 home = [ "HTML", "JSON" ]
